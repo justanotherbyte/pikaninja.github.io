@@ -69,7 +69,7 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 3em;
-  
+
 }
 
 .buttoninv {
@@ -87,11 +87,48 @@ button {
     display:inline-block;
 }
 
+@keyframes moveup1{
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity:100;
+    }
+}
+
+@keyframes moveup2{
+    0%{
+        opacity: 0;
+    }
+    33%{
+        opacity: 0;
+    }
+    66%{
+        opacity: 100;
+    }
+}
+
+
+@keyframes moveup3{
+    0%{
+        opacity: 0;
+    }
+    66%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4em;
+  margin-top: 4em;
+
 }
 
 
