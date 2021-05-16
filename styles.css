@@ -69,17 +69,19 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 3em;
+  
 }
+
 .buttoninv {
     font-size: 0.75em;
     background-color: #7289DA
 }
 
-.buttoninv:hover{
+.buttoninv:hover {
   background-color: #526ac0;
 }
 
-.divider{
+.divider {
     width:1em;
     height:auto;
     display:inline-block;
