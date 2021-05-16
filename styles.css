@@ -73,6 +73,11 @@ button {
     font-size: 0.75em;
     background-color: #7289DA
 }
+
+.buttoninv:hover{
+  background-color: #526ac0;
+}
+
 .divider{
     width:1em;
     height:auto;
